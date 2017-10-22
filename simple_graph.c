@@ -21,7 +21,7 @@ typedef struct GraphNode_S {
 GraphNode * grh_create_node( char * name ){
   GraphNode * nodeptr = (GraphNode *)malloc(sizeof(GraphNode));
   strcpy(nodeptr->name, name);
-  return nodeptr;  
+  return  nodeptr;  
 }
 
 /// grh_delete_node deletes the given node.
